@@ -1,7 +1,7 @@
 <div dir="ltr">
 • "_clock - Copy.html_" is the html file/browser source for OBS containing the time in China (synced towards your local clock)<br>
 <br>
-• the _.bat_ files opens MPV towads the feeders<br>
+• the _.bat_ files opens the feeder streams via MPV which automatically reopens itself whenever it loses signal or something<br>
 <br>
 • "_info.lua_" is the script for OBS that reads the "_api_response.txt_"<br>
 <br>
