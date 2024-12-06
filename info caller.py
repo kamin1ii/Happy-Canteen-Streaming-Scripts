@@ -19,4 +19,4 @@ while True:
     except Exception as e:
         print("Error fetching data:", e)
 
-    time.sleep(13)  # Wait for 5 seconds before the next request
+    time.sleep(13)  # Wait for 13 seconds before the next request
