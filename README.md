@@ -9,7 +9,7 @@
 <br>
 • "info caller.py" needs to be run separately to update "api_response.txt" (every 13 seconds)<br>
 <br>
-•if you dont have a spare monitor or a dummy display plug, I used a virtual second monitor [link for Windows](https://github.com/VirtualDisplay/Virtual-Display-Driver/tree/23.10.20.2)
+•if you dont have a spare monitor or a dummy display plug, I used a virtual second monitor [link for Windows](https://github.com/VirtualDisplay/Virtual-Display-Driver/tree/23.10.20.2)  
 
 </div>
 
