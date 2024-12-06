@@ -2,7 +2,7 @@ obs = obslua
 
 -- Default values
 timer_text_source_name = ""  -- To be set in properties
-api_response_file_path = "C:\\Users\\Ezra\\Documents\\OBS stuff\\bat\\api_response.txt"
+api_response_file_path = "C:\\Users\\User\\Documents\\OBS stuff\\bat\\api_response.txt"
 update_interval_ms = 5000  -- Update interval in milliseconds
 
 -- Checkbox options for displaying specific keys
