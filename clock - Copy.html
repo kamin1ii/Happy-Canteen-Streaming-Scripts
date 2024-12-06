@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>China Time Clock</title>
+</head>
+
+<body translate="no">
+  <div id="output"
+       style="display: inline-block;
+              font-family: monospace;
+              font-size: 30px;
+              text-align: right;
+              color: lightgray;
+              border-radius: 10px;
+              padding: 10px;
+              background-color: rgba(0, 0, 0, 0.75);">
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data.min.js'></script>
+  <script>
+    var output = document.getElementById("output");
+    function updateTime() {
+        output.innerText = moment().tz("Asia/Shanghai").format('YYYY-MM-DD h:mm:ss A');
+    }
+    setInterval(updateTime, 1000);
+    updateTime();
+  </script>
+</body>
+
+</html>
